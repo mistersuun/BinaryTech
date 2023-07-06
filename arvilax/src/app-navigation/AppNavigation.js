@@ -25,8 +25,8 @@ const AppNavigation = () => {
     <ContextProvider>
       <AnimateMouse/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home-2" element={<HomeTwo />} />
+        <Route path="/home-2" element={<Home />} />
+        <Route path="/" element={<HomeTwo />} />
         <Route path="/home-3" element={<HomeThree />} />
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<TeamPage/>} />
