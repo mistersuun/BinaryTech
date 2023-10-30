@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6">
                       <div className="tp-footer__widget  pb-30">
                         <h3 className="tp-footer__widget-title">
-                          Our Location
+                          Our Locations
                         </h3>
                         <ul>
                           <li>
@@ -25,7 +25,7 @@ const Footer = () => {
                             <a href="#">America</a>
                           </li>
                           <li>
-                            <a href="#">Constarica</a>
+                            <a href="#">Costa Rica</a>
                           </li>
                           <li>
                             <a href="#">Germany</a>
@@ -38,20 +38,12 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-3 col-md-6">
                       <div className="tp-footer__widget pb-30">
-                        <h3 className="tp-footer__widget-title">Our Service</h3>
+                        <h3 className="tp-footer__widget-title">Our Services</h3>
                         <ul>
-                          <li>
-                            <a href="#">Tax strategy</a>
-                          </li>
-                          <li>
-                            <a href="#">Financial advices</a>
-                          </li>
-                          <li>
-                            <a href="#">Insurance strategy</a>
-                          </li>
-                          <li>
-                            <a href="#">Manage investment</a>
-                          </li>
+                          <li><a href="#">Web Design</a></li>
+                          <li><a href="#">Branding</a></li>
+                          <li><a href="#">Digital strategy</a></li>
+                          <li><a href="#">Business Development</a></li>
                         </ul>
                       </div>
                     </div>
@@ -76,27 +68,12 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-3 col-md-6">
                       <div className="tp-footer__widget  pb-30">
-                        <h3 className="tp-footer__widget-title">Quick Links</h3>
+                        <h3 className="tp-footer__widget-title">Contact</h3>
                         <ul>
-                          <li>
-                            <a href="#">
-                              27 Division St, New York, NY 10002, USA
-                            </a>
-                          </li>
-                          <li>
-                            <a href="tel:+88015569569365">(+880)52462545632</a>
-                          </li>
-                          <li>
-                            <a href="mailto:support@example.com">
-                              support@example.com
-                            </a>
-                          </li>
-                          <li>
-                            <span> Office Hours: 9AM - 4PM</span>
-                          </li>
-                          <li>
-                            <span> Friday - Wekend Day</span>
-                          </li>
+                        <li><a href="tel:+15142955315">(+1) 514-295-5315</a></li>
+                        <li><a href="mailto:binarytech@gmail.com">binarytech@gmail.com</a></li>
+                        <li><span> Office Hours: 7AM - 9PM</span></li>
+                        <li><span> Monday - Friday</span></li>
                         </ul>
                       </div>
                     </div>
@@ -114,9 +91,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-8 col-12">
                 <div className="tp-copyrigh-text mb-30">
-                  <span>
-                    © {new Date().getFullYear()} Arvilax - Business Consulting . All Rights Reserved.
-                  </span>
+                <span>© {new Date().getFullYear()} BinaryTech - Business and Software Consulting</span>
                 </div>
               </div>
               <div className="col-md-4 col-12">

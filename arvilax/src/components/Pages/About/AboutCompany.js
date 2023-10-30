@@ -42,7 +42,7 @@ const AboutCompany = () => {
                         aria-controls="nav-vission"
                         aria-selected="false"
                       >
-                        Our Vission
+                        Our Vision
                       </button>
                       <button
                         className="nav-links"
@@ -54,7 +54,7 @@ const AboutCompany = () => {
                         aria-controls="nav-value"
                         aria-selected="false"
                       >
-                        Our Value
+                        Our Values
                       </button>
                     </div>
                   </nav>
@@ -141,9 +141,9 @@ const AboutCompany = () => {
                   <img src="assets/img/about/dot.jpg" alt="" />
                 </div>
                 <div className="about-info-box d-flex flex-column justify-content-center text-center">
-                  <h3 className="box-title">24</h3>
+                  <h3 className="box-title">5</h3>
                   <h4 className="box-subtitle">
-                    Year of <br />
+                    Years of <br />
                     Experience
                   </h4>
                 </div>

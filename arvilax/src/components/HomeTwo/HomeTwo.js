@@ -4,7 +4,7 @@ import FooterTwo from "../common/Footer/FooterTwo";
 import FullScreenBtn from "../common/FullScreenBtn";
 import Menu from "../common/Menu/Menu";
 import Testimonial from "../common/Testimonial/Testimonial";
-import BlogHomeTwo from "./BlogHomeTwo";
+//import BlogHomeTwo from "./BlogHomeTwo";
 import GalleryHomeTwo from "./GalleryHomeTwo";
 import Services from "./Services";
 import SliderHomeTwo from "./SliderHomeTwo";
@@ -22,7 +22,6 @@ const HomeTwo = () => {
       <GalleryHomeTwo />
       <Testimonial />
       <Brands />
-      <BlogHomeTwo />
       <FullScreenBtn />
       <FooterTwo />
     </>

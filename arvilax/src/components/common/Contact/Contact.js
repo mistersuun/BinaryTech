@@ -9,7 +9,7 @@ const Contact = () => {
             <div className="col-12">
               <div className="tp-section-wrapper text-center pb-40">
                 <span className="tp-section-subtitle mb-25">
-                  Derect Contact
+                  Direct Contact
                 </span>
                 <h2 className="tp-section-title">
                   Can’t find what are you <br />
@@ -22,27 +22,27 @@ const Contact = () => {
             <div className="col-lg-8">
               <div className="tp-contact-form tp-contact-form-2 white-bg pt-50 pl-50 pr-50 pb-55 mr-60">
                 <h4 className="tp-contact-form-title">
-                  Derect Contact with us
+                  Direct Contact with us
                 </h4>
                 <form action="#">
                   <input
                     type="text"
                     name="name"
-                    placeholder="Enter your name"
+                    placeholder="Enter your name*"
                   />
                   <br />
                   <input
                     type="email"
                     name="email"
-                    placeholder="Enter your mail"
+                    placeholder="Enter your mail*"
                   />
                   <br />
                   <textarea
                     name="message"
-                    placeholder="Enter your mail"
+                    placeholder="Enter your mail*"
                   ></textarea>
                   <button type="submit" className="tp-btn-border">
-                    Send Massage
+                    Send Message
                     <span>
                       <svg
                         width="22"
@@ -83,9 +83,9 @@ const Contact = () => {
                     Online Contact
                   </h3>
                   <p>
-                    Ta-134/A, Gulshan Badda Link <br />
-                    Rd, Dhaka. BD 1234 <br />
-                    (+880)52462545632
+                    537, Jacques-Cartier Est<br />
+                    Bld, Quebec. CA J4L 4A5 <br />
+                    (+1) 514-295-5315
                   </p>
                 </div>
                 <div className="tp-ct-info pt-60 pl-50 pb-35">
@@ -96,8 +96,8 @@ const Contact = () => {
                     Opening Hours
                   </h3>
                   <p>
-                    Office Hours: 8AM - 11PM <br />
-                    Friday - Wekend Day
+                    Office Hours: 7AM - 9PM <br />
+                    Monday - Friday
                   </p>
                 </div>
                 <div className="tp-ct-info pt-60 pl-50 pb-50 black-bg-2">

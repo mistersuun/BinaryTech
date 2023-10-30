@@ -31,11 +31,11 @@ const FooterThree = () => {
                 <div className="row">
                   <div className="col-lg-3 col-md-6">
                     <div className="tp-footer__widget tp-footer__2 pb-30">
-                      <h3 className="tp-footer__widget-title text-white">Our Location</h3>
+                      <h3 className="tp-footer__widget-title text-white">Our Locations</h3>
                       <ul>
                         <li><a href="#">London</a></li>
                         <li><a href="#">America</a></li>
-                        <li><a href="#">Constarica</a></li>
+                        <li><a href="#">Costa Rica</a></li>
                         <li><a href="#">Germany</a></li>
                         <li><a href="#">India</a></li>
                       </ul>
@@ -43,12 +43,12 @@ const FooterThree = () => {
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="tp-footer__widget tp-footer__2 pb-30">
-                      <h3 className="tp-footer__widget-title text-white">Our Service</h3>
+                      <h3 className="tp-footer__widget-title text-white">Our Services</h3>
                       <ul>
-                        <li><a href="#">Tax strategy</a></li>
-                        <li><a href="#">Financial advices</a></li>
-                        <li><a href="#">Insurance strategy</a></li>
-                        <li><a href="#">Manage investment</a></li>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Digital strategy</a></li>
+                        <li><a href="#">Business Development</a></li>
                       </ul>
                     </div>
                   </div>
@@ -56,22 +56,21 @@ const FooterThree = () => {
                     <div className="tp-footer__widget tp-footer__2  pb-30">
                       <h3 className="tp-footer__widget-title text-white">Quick Links</h3>
                       <ul>
-                        <li><a href="#">Our Team</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Service</a></li>
+                        <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/about">About us</a></li>
+                        <li><a href="/contact">Contact</a></li>
                       </ul>
                     </div>
                   </div>
                   <div className="col-lg-3 col-md-6">
                     <div className="tp-footer__widget tp-footer__2  pb-30">
-                      <h3 className="tp-footer__widget-title text-white">Quick Links</h3>
+                      <h3 className="tp-footer__widget-title text-white">Contact</h3>
                       <ul>
-                        <li><a href="#">27 Division St, New York, NY 10002, USA</a></li>
-                        <li><a href="tel:+88015569569365">(+880)52462545632</a></li>
-                        <li><a href="mailto:support@example.com">support@example.com</a></li>
-                        <li><span> Office Hours: 9AM - 4PM</span></li>
-                        <li><span> Friday - Wekend Day</span></li>
+                        <li><a href="#">537 Jacques-Cartier St, Longueuil, QC J4L 4A5, CA</a></li>
+                        <li><a href="tel:+15142955315">(+1) 514-295-5315</a></li>
+                        <li><a href="mailto:binarytech@gmail.com">binarytech@example.com</a></li>
+                        <li><span> Office Hours: 7AM - 9PM</span></li>
+                        <li><span> Monday - Friday</span></li>
                       </ul>
                     </div>
                   </div>
@@ -89,7 +88,7 @@ const FooterThree = () => {
           <div className="row">
             <div className="col-12">
               <div className="tp-copyrigh-text text-center text-white">
-                <span>© {new Date().getFullYear()} Arvilax - Business Consulting . All Rights Reserved..</span>
+                <span>© {new Date().getFullYear()} BinaryTech - Business and Software Consulting . All Rights Reserved..</span>
               </div>
             </div>
           </div>

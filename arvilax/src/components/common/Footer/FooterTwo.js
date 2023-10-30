@@ -13,9 +13,9 @@ const FooterTwo = () => {
                   <div className="col-lg-3 col-md-6">
                     <div className="tp-footer__widget tp-footer__2 footer-col-2-1 pb-30">
                       <div className="footer-logo mb-30">
-                        <a href="#"><img src="/assets/img/logo/logo.png" alt="" /></a>
+                        <a href="#"><img className='logo_footer' src="/assets/img/logo/logo.png" alt="" /></a>
                       </div>
-                      <p>Tellus rutrum tellus pellentesque eu. Sagittis purus sit amet volutpat. Sed ullamcorper tellus rutrum tellus pellentesque eu.Purus sit amet . Sed ullamcorper retherlly. </p>
+                      {/*<p>Tellus rutrum tellus pellentesque eu. Sagittis purus sit amet volutpat. Sed ullamcorper tellus rutrum tellus pellentesque eu.Purus sit amet . Sed ullamcorper retherlly. </p> */}
                     </div>
                   </div>
                   <div className="col-lg-3 col-md-6">
@@ -24,7 +24,7 @@ const FooterTwo = () => {
                       <ul>
                         <li><a href="#">London</a></li>
                         <li><a href="#">America</a></li>
-                        <li><a href="#">Constarica</a></li>
+                        <li><a href="#">Costa Rica</a></li>
                         <li><a href="#">Germany</a></li>
                         <li><a href="#">India</a></li>
                       </ul>
@@ -35,17 +35,16 @@ const FooterTwo = () => {
                     <div className="tp-footer__widget tp-footer__2 footer-col-2-3 pb-30">
                       <h3 className="tp-footer__widget-title text-white">Quick Links</h3>
                       <ul>
-                        <li><a href="#">Ta-134/A, Gulshan Badda Link </a></li>
-                        <li><a href="tel:+88015569569365">(+880)52462545632</a></li>
-                        <li><a href="mailto:support@example.com">support@example.com</a></li>
-                        <li><span> Office Hours: 9AM - 4PM</span></li>
-                        <li><span> Friday - Wekend Day</span></li>
+                        <li><a href="tel:+15142955315">(+1) 514-295-5315</a></li>
+                        <li><a href="mailto:binarytech@gmail.com">binarytech@gmail.com</a></li>
+                        <li><span> Office Hours: 7AM - 9PM</span></li>
+                        <li><span> Monday - Friday</span></li>
                       </ul>
                     </div>
                   </div>
                   <div className="col-lg-3 col-md-6 ">
                     <div className="tp-footer__widget tp-footer__2 footer-col-2-4  pb-30">
-                      <h3 className="tp-footer__widget-title text-white">Newslatter</h3>
+                      <h3 className="tp-footer__widget-title text-white">Newsletter</h3>
                       <div className="footer-form-3 mb-30">
                         <form>
                           <input type="email" placeholder="Enter your mail" />
@@ -69,18 +68,12 @@ const FooterTwo = () => {
           <div className="row">
             <div className="col-md-8 col-12">
               <div className="tp-copyrigh-text mb-30">
-                <span>© {new Date().getFullYear()} Arvilax - Business Consulting</span>
+                <span>© {new Date().getFullYear()} BinaryTech - Business and Software Consulting</span>
               </div>
             </div>
             <div className="col-md-4 col-12">
               <div className="tp-footer-social-icon mb-30 text-md-end">
-                <ul>
-                  <li><a href="#"><i className="fab fa-facebook"></i></a></li>
-                  <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                  <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i className="fab fa-youtube"></i></a></li>
-                  <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
-                </ul>
+                
               </div>
             </div>
           </div>
@@ -90,5 +83,15 @@ const FooterTwo = () => {
     </footer>
   );
 };
+/* If social media
+<ul>
+  <li><a href="#"><i className="fab fa-facebook"></i></a></li>
+  <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+  <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+  <li><a href="#"><i className="fab fa-youtube"></i></a></li>
+  <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
+</ul>
+
+*/
 
 export default FooterTwo;

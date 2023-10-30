@@ -2,10 +2,10 @@ import React from 'react';
 import { Route, Routes } from "react-router-dom";
 // internal
 import BackToTop from '../components/BackToTop';
-import AnimateMouse from '../components/common/AnimateMouse';
+//import AnimateMouse from '../components/common/AnimateMouse';
 import ContextProvider from '../components/context/ContextProvider';
 import Home from '../components/Home/Home';
-import HomeThree from '../components/HomeThree/HomeThree';
+//import HomeThree from '../components/HomeThree/HomeThree';
 import HomeTwo from '../components/HomeTwo/HomeTwo';
 import About from '../components/Pages/About/About';
 import Blog from '../components/Pages/Blog/Blog';
@@ -18,18 +18,19 @@ import Price from '../components/Pages/Price/Price';
 import Service from '../components/Pages/Service/Service';
 import ServiceDetails from '../components/Pages/ServiceDetails/ServiceDetails';
 import TeamDetails from '../components/Pages/TeamDetails/TeamDetails';
-import TeamPage from '../components/Pages/TeamPage/TeamPage';
+//import TeamPage from '../components/Pages/TeamPage/TeamPage';
+
+//Unused
+//        <Route path="/team" element={<TeamPage/>} />
+//        <Route path="/home-3" element={<HomeThree />} />
 
 const AppNavigation = () => {
   return (
     <ContextProvider>
-      <AnimateMouse/>
       <Routes>
         <Route path="/home-2" element={<Home />} />
         <Route path="/" element={<HomeTwo />} />
-        <Route path="/home-3" element={<HomeThree />} />
         <Route path="/about" element={<About />} />
-        <Route path="/team" element={<TeamPage/>} />
         <Route path="/team-details" element={<TeamDetails />} />
         <Route path="/service" element={<Service />} />
         <Route path="/service-details" element={<ServiceDetails />} />

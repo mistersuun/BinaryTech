@@ -65,22 +65,26 @@ const Services = () => {
             <ServiceItem
               icon="pe-7s-arc"
               title="Branding"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
+              desc="Crafting a compelling brand identity that includes a visually appealing logo,
+               color scheme, and messaging to make your business stand out and connect with your target audience."
             />
             <ServiceItem
               icon="pe-7s-cloud-download"
               title="Management"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
+              desc=" Efficiently overseeing and coordinating IT projects and resources, ensuring they are on schedule,
+               within budget, and meet quality standards for successful implementation."
             />
             <ServiceItem
               icon="pe-7s-disk"
               title="Development"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
+              desc="This includes but is not limited to designing, coding, and testing software and digital solutions to meet specific business needs,
+               enhancing your digital presence and functionality."
             />
             <ServiceItem
               icon="pe-7s-hammer"
-              title="Delevery"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
+              title="Delivery"
+              desc="Implementing and maintaining software solutions by deploying, configuring, and supporting them,
+               ensuring their smooth operation and integration into your IT ecosystem."
             />
             <div className="text-center mt-60">
               <Link to="/service" className="tp-btn-border">

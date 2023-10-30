@@ -22,9 +22,9 @@ const ContactInfo = () => {
                     />
                   </svg>
                 </span>
-                <h3 className="ct-info__box-title">Address line</h3>
+                <h3 className="ct-info__box-title">Address</h3>
                 <p className="p-0">
-                  Bowery St, New York, NY <br /> 10013,USA
+                  Jacques-Cartier St, Longueuil, QC <br /> J4L 4A5, CANADA
                 </p>
               </div>
             </div>
@@ -47,8 +47,8 @@ const ContactInfo = () => {
                 </span>
                 <h3 className="ct-info__box-title">Phone Number</h3>
                 <p className="p-0">
-                  <a href="tel:+1255-568-6523">+1255 - 568 - 6523</a> <br />
-                  <a href="tel:+1255-568-6523">+1255 - 568 - 6523</a>
+                  <a href="tel:+1255-568-6523">+1 514 - 295 - 5315</a> <br />
+                  <a href="tel:+1255-568-6523">+1 255 - 568 - 6523</a>
                 </p>
               </div>
             </div>
@@ -68,11 +68,11 @@ const ContactInfo = () => {
                     />
                   </svg>
                 </span>
-                <h3 className="ct-info__box-title">Mail Adress</h3>
+                <h3 className="ct-info__box-title">Email Adress</h3>
                 <p className="p-0">
-                  <a href="mailto:email@example.com">email@example.com</a>{" "}
+                  <a href="mailto:binarytech@gmail.com">BinaryTech@gmail.com</a>{" "}
                   <br />
-                  <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                   <a href="mailto:info@yourdomain.com">info@yourdomain.com</a> 
                 </p>
               </div>
             </div>
@@ -90,7 +90,7 @@ const ContactInfo = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="Your email here"
+                    placeholder="Your email here*"
                     required
                   />
                   <input
@@ -149,7 +149,7 @@ const ContactInfo = () => {
         <div className="tp-ct-map">
           <iframe
             title="map"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6317.73017726894!2d90.36757560194341!3d23.832698085391147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1653563681792!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3968.717677548088!2d-73.56976103664598!3d45.508669152225546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1653563681792"
             style={{ border: "0" }}
             allowFullScreen=""
             loading="lazy"

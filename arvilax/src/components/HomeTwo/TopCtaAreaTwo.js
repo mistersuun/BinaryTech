@@ -12,10 +12,10 @@ const TopCtaAreaTwo = () => {
               <div className="col-lg-8">
                 <div className="tp-section-wrapper">
                   <span className="tp-section-subtitle tp-subtitle-before mb-25">
-                    Our misson is grow your Business
+                    Our Business is your Business
                   </span>
                   <h2 className="tp-section-title tp-section-title-large">
-                    We also have a ton of fun in the process. we’re ready to
+                    We also have a ton of fun in the process. We’re ready to
                     grow your business with us
                   </h2>
                 </div>
