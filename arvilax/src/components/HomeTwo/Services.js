@@ -10,10 +10,10 @@ export function ServiceItem({ icon, title, desc }) {
           <i className={icon}></i>
         </div>
         <h3 className="tp-service__title pt-40 pb-25">
-          <Link to="/service-details">{title}</Link>
+        <Link to={`/service-details?title=${title}`}>{title}</Link>
         </h3>
         <p>{desc}</p>
-        <Link className="tp-btn-sm-black" to="/service-details">
+        <Link className="tp-btn-sm-black" to={`/service-details?title=${title}`}>
           <span>
             <svg
               width="36"
@@ -40,7 +40,7 @@ export function ServiceItem({ icon, title, desc }) {
               />
             </svg>
           </span>
-          View MOre
+          View More
         </Link>
       </div>
     </div>
