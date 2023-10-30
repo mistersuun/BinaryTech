@@ -34,7 +34,7 @@ const AboutFeature = () => {
                     Business Boom
                   </h3>
 
-                  <Link to="/about" className="tp-slider-btn" tabIndex="-1">
+                  <Link to="/contact" className="tp-slider-btn" tabIndex="-1">
                     <span>
                       <svg
                         width="53"
