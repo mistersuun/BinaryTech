@@ -27,6 +27,7 @@ const TopCategoryHomePageTwo = () => {
                     amet volutpat. Sed ullamcorper tellus rutrum tellus
                     pellentesque eu. Sagittis purus sit
                   </p>
+                  {/*
                   <div className="mt-50">
                     <Link to="/service" className="tp-btn-white">
                       View More
@@ -58,6 +59,7 @@ const TopCategoryHomePageTwo = () => {
                       </span>
                     </Link>
                   </div>
+                  */}
                 </div>
               </div>
             </div>
@@ -86,6 +88,7 @@ const TopCategoryHomePageTwo = () => {
                     amet volutpat. Sed ullamcorper tellus rutrum tellus
                     pellentesque eu. Sagittis purus sit
                   </p>
+                  {/*
                   <div className="mt-50">
                     <Link to="/service" className="tp-btn-border">
                       View More
@@ -117,6 +120,7 @@ const TopCategoryHomePageTwo = () => {
                       </span>
                     </Link>
                   </div>
+                  */}
                 </div>
               </div>
             </div>
