@@ -37,7 +37,7 @@ const ServiceAbout = () => {
                     pellentesque eu. Sagittis purus sit amet volutpat. Sed
                     ullamcorper
                   </p>
-
+                  {/*
                   <div className="mt-50 mb-130">
                     <Link to="/service" className="tp-btn-white">
                       View More
@@ -69,6 +69,8 @@ const ServiceAbout = () => {
                       </span>
                     </Link>
                   </div>
+                  */}
+                  
                 </div>
               </div>
               <div className="serive-vd-play d-none d-lg-block">
