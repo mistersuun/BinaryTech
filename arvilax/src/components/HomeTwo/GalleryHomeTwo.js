@@ -16,14 +16,16 @@ function GalleryItem({index, cls = "", img, title }) {
     setIsOpen(true);
   };
   //  images
+  /*
+  '/assets/img/gallery/gallery-7.jpg',
+    '/assets/img/gallery/gallery-8.jpg',
+    '/assets/img/gallery/gallery-9.jpg',
+    '/assets/img/gallery/gallery-10.jpg',
+  */
   const images = [
     '/assets/img/gallery/gallery-4.jpg',
     '/assets/img/gallery/gallery-5.jpg',
     '/assets/img/gallery/gallery-6.jpg',
-    '/assets/img/gallery/gallery-7.jpg',
-    '/assets/img/gallery/gallery-8.jpg',
-    '/assets/img/gallery/gallery-9.jpg',
-    '/assets/img/gallery/gallery-10.jpg',
   ];
   return (
     <React.Fragment>
