@@ -72,10 +72,11 @@ const GalleryHomeTwo = () => {
               <GalleryItem index={0} cls="tp-gl-img-size" img="4" title="Data Analysis" />
             </div>
             <div className="col-xl-4 tp-col-4 col-sm-12">
-              <GalleryItem index={1} cls="mb-30" img="5" title="Web design" />
-              <GalleryItem index={2} img="6" title="Logo" />
+              <GalleryItem index={2} cls="mb-30" img="6" title="Web design" />
+              <GalleryItem index={1} img="5" title="Logo" />
             </div>
           </div>
+          {/*
           <div className="row gt-25">
             <div className="col-xl-3 tp-col-3 col-sm-12">
               <GalleryItem index={3} img="7" title="Branding" />
@@ -92,6 +93,7 @@ const GalleryHomeTwo = () => {
               <GalleryItem index={6} img="10" title="Other" />
             </div>
           </div>
+        */}
         </div>
         <div className="text-center mt-60">
           <Link to="/service" className="tp-btn-border">
