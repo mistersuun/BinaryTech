@@ -13,7 +13,7 @@ const FooterTwo = () => {
                   <div className="col-lg-3 col-md-6">
                     <div className="tp-footer__widget tp-footer__2 footer-col-2-1 pb-30">
                       <div className="footer-logo mb-30">
-                        <a href="#"><img className='logo_footer' src="/assets/img/logo/logo.png" alt="" /></a>
+                        <a href="#"><img src="/assets/img/logo/logo.png" alt="" /></a>
                       </div>
                       {/*<p>Tellus rutrum tellus pellentesque eu. Sagittis purus sit amet volutpat. Sed ullamcorper tellus rutrum tellus pellentesque eu.Purus sit amet . Sed ullamcorper retherlly. </p> */}
                     </div>
