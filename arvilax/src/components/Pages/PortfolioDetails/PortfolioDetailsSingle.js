@@ -43,7 +43,7 @@ const PortfolioDetailsSingle = () => {
             <div className="row">
               <div className="col-12">
                 <div className="pj-details-hero-img w-img p-relative">
-                  <img src="assets/img/project/project-details.jpg" alt="" />
+                  <img src={currentProject.img} alt="" />
                   <div className="pj-detials-meta-box white-bg">
                     <h3 className="pj-details-meta-title">{currentProject.category}</h3>
                     <div className="pj-detials-meta-info">

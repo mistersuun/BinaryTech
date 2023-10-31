@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "title": "Aircraft Engine Performance Analysis System",
-        "client": "Aerospace Industry Client",
+        "client": "Aerospace Industry",
         "category": "Aerospace",
         "date": "2023-10-15",
         "subtitle": "Revolutionizing Engine Performance Monitoring",
@@ -10,7 +10,7 @@
         "text2": "Improved safety and efficiency by reducing unplanned downtime and optimizing maintenance operations.",
         "text3": "Weekly performance reports provided invaluable insights for cost reduction and operations optimization.",
         "text4": "Ongoing development includes advanced machine learning and AI features for even finer analysis and proactive issue anticipation.",
-        "img" : "/assets/img/project/item-1.jpg"
+        "img" : "/assets/img/project/project2.jpg"
     },
     {
         "id" : 2,
@@ -23,7 +23,7 @@
         "text2": "Streamlined contract management, improving efficiency and accuracy in the renewal process.",
         "text3": "Enhanced customer engagement by offering personalized contract options.",
         "text4": "Future plans include integration with additional APIs and AI-driven recommendations.",
-        "img" : "/assets/img/project/item-2.jpg"
+        "img" : "/assets/img/project/project3.jpg"
     },
     {
         "id" : 3,
@@ -36,7 +36,7 @@
         "text2": "Improved data-driven investment decisions by providing real-time analytics and risk assessment.",
         "text3": "Increased efficiency by automating data entry and calculations.",
         "text4": "Future development includes machine learning for predictive analytics.",
-        "img" : "/assets/img/project/item-3.jpg"
+        "img" : "/assets/img/project/project4.jpg"
     },
     {
         "id" : 4,
