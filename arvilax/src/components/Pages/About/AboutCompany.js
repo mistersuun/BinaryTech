@@ -159,7 +159,7 @@ const AboutCompany = () => {
                   <img src="assets/img/about/dot.jpg" alt="" />
                 </div>
                 <div className="about-info-box d-flex flex-column justify-content-center text-center">
-                  <h3 className="box-title">5</h3>
+                  <h3 className="box-title">8</h3>
                   <h4 className="box-subtitle">
                     Years of <br />
                     Experience

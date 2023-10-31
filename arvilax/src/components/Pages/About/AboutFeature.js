@@ -74,7 +74,7 @@ const AboutFeature = () => {
       <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={"EW4ZYb3mCZk"}
+        videoId={"3exrJ9_Ze_o"}
       />
       {/* video modal end */}
     </>
