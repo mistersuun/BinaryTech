@@ -14,19 +14,19 @@ const TopCategoryHomePageTwo = () => {
                     we increase your business
                   </span>
                   <h2 className="tp-section-title text-white tp-title-size">
-                    Latest updates from the economy world
+                    Latest updates from the tech world
                   </h2>
                   <p>
-                    Tellus rutrum tellus pellentesque eu. Sagittis purus sit
-                    amet volutpat. Sed ullamcorper tellus rutrum tellus
-                    pellentesque eu. Sagittis purus sit amet volutpat. Sed
-                    ullamcorper retherlly.
+                    In today's business landscape, the digital sphere offers remarkable opportunities.
+                    Global e-commerce sales exceeded $4.2 trillion in 2021, providing a vast platform
+                    to connect with customers and expand reach.
                   </p>
                   <p className="pt-10">
-                    Tellus rutrum tellus pellentesque eu. Sagittis purus sit
-                    amet volutpat. Sed ullamcorper tellus rutrum tellus
-                    pellentesque eu. Sagittis purus sit
+                    Moreover, remote work is transforming the way we operate, making it easier to tap into
+                    a broader talent pool and adapt to evolving market demands. Embrace the tech world for
+                    increased growth and reach.
                   </p>
+                  {/*
                   <div className="mt-50">
                     <Link to="/service" className="tp-btn-white">
                       View More
@@ -58,6 +58,7 @@ const TopCategoryHomePageTwo = () => {
                       </span>
                     </Link>
                   </div>
+                  */}
                 </div>
               </div>
             </div>
@@ -76,16 +77,18 @@ const TopCategoryHomePageTwo = () => {
                     Motivate and increase daily productivity
                   </h2>
                   <p>
-                    Tellus rutrum tellus pellentesque eu. Sagittis purus sit
-                    amet volutpat. Sed ullamcorper tellus rutrum tellus
-                    pellentesque eu. Sagittis purus sit amet volutpat. Sed
-                    ullamcorper retherlly.
+                   Motivation is the driving force behind increased daily productivity. When
+                   individuals find their intrinsic motivation, they're more likely to accomplish
+                   tasks efficiently and with enthusiasm. It's about setting clear goals, establishing
+                   routines, and nurturing a positive mindset to create a productive environment.
                   </p>
                   <p className="pt-10">
-                    Tellus rutrum tellus pellentesque eu. Sagittis purus sit
-                    amet volutpat. Sed ullamcorper tellus rutrum tellus
-                    pellentesque eu. Sagittis purus sit
+                    Furthermore, a focus on time management can significantly boost daily productivity.
+                    By prioritizing tasks, eliminating distractions, and maintaining a structured schedule,
+                    individuals can maximize their output and make the most of their time. With motivation and
+                    efficient time management, achieving daily goals becomes not just possible but also fulfilling.
                   </p>
+                  {/*
                   <div className="mt-50">
                     <Link to="/service" className="tp-btn-border">
                       View More
@@ -117,6 +120,7 @@ const TopCategoryHomePageTwo = () => {
                       </span>
                     </Link>
                   </div>
+                  */}
                 </div>
               </div>
             </div>

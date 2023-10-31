@@ -1,7 +1,10 @@
 import React from "react";
 import { ServiceItem } from "../../HomeTwo/Services";
+import serviceData from "../../../data/serviceData.json";
 
 const OurService = () => {
+  const serviceArray = serviceData;
+
   return (
     <>
       <div className="tp-service-ara grey-bg-4 pt-140 pb-110">
@@ -15,46 +18,14 @@ const OurService = () => {
             </div>
           </div>
           <div className="row">
-            <ServiceItem
-              icon="pe-7s-arc"
-              title="Branding"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-cloud-download"
-              title="Management"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-disk"
-              title="Development"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-hammer"
-              title="Delevery"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-umbrella"
-              title="Operational"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-graph3"
-              title="Analysis"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-cup"
-              title="Design"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
-            <ServiceItem
-              icon="pe-7s-config"
-              title="Digital Service"
-              desc="Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Nibh nisl id venenatis sey."
-            />
+            {serviceArray.map((service, index) => (
+              <ServiceItem
+                key={index}
+                icon={service.icon}
+                title={service.title}
+                desc={service.desc}
+              />
+            ))}
           </div>
         </div>
       </div>

@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const ServiceDetailsBanner = () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const title = urlParams.get("title");
+
   return (
     <>
       <section
@@ -15,13 +18,13 @@ const ServiceDetailsBanner = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="breadcrumb__content text-center p-relative z-index-1">
-                <h3 className="breadcrumb__title">Our Services</h3>
+                <h3 className="breadcrumb__title">Services</h3>
                 <div className="breadcrumb__list">
                   <span>
-                    <Link to="/">Home</Link>
+                    <Link to="/">Service</Link>
                   </span>
                   <span className="dvdr">:</span>
-                  <span>our services</span>
+                  <span>{title}</span>
                 </div>
               </div>
             </div>
