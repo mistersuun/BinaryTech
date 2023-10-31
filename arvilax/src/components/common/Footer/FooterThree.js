@@ -68,7 +68,7 @@ const FooterThree = () => {
                       <ul>
                         <li><a href="#">537 Jacques-Cartier St, Longueuil, QC J4L 4A5, CA</a></li>
                         <li><a href="tel:+15142955315">(+1) 514-295-5315</a></li>
-                        <li><a href="mailto:binarytech@gmail.com">binarytech@example.com</a></li>
+                        <li><a href="mailto:binarytechinc@outlook.com">binarytechinc@outlook.com</a></li>
                         <li><span> Office Hours: 7AM - 9PM</span></li>
                         <li><span> Monday - Friday</span></li>
                       </ul>
