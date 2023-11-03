@@ -14,17 +14,19 @@ const MobileMenu = () => {
               <li>
                 <Link to="/about">About us</Link>
               </li>
+              <li>
+                <Link to="/service">Services</Link>
+              </li>
+              {/*
               <li className="has-dropdown">
                 <Link to="/team">Pages</Link>
                 <ul className="submenu">
+                  
                   <li>
                     <Link to="/team">Team</Link>
                   </li>
                   <li>
                     <Link to="/team-details">Team details</Link>
-                  </li>
-                  <li>
-                    <Link to="/service">Service</Link>
                   </li>
                   <li>
                     <Link to="/service-details">service details</Link>
@@ -35,13 +37,12 @@ const MobileMenu = () => {
                   <li>
                     <Link to="/contact">contact</Link>
                   </li>
-                  <li>
-                    <Link to="/faq">Faq</Link>
-                  </li>
                 </ul>
               </li>
-              <li className="has-dropdown">
+              */}
+              <li>
                 <Link to="/portfolio">Portfolio</Link>
+              {/* 
                 <ul className="submenu">
                   <li>
                     <Link to="/portfolio">Portfolio</Link>
@@ -50,8 +51,9 @@ const MobileMenu = () => {
                     <Link to="/portfolio-details">Portfolio Details</Link>
                   </li>
                 </ul>
+              */}
               </li>
-              <li className="has-dropdown">
+          {/* <li className="has-dropdown">
                 <Link to="/blog">Blog</Link>
                 <ul className="submenu">
                   <li>
@@ -62,6 +64,10 @@ const MobileMenu = () => {
                   </li>
                 </ul>
               </li>
+            */}
+            <li>
+              <Link to="/faq">Faq</Link>
+            </li>
             </ul>
           </nav>
         </div>
